@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		526BBA402C721D18003CF13D /* BookCardVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526BBA3F2C721D18003CF13D /* BookCardVIew.swift */; };
+		526BBA422C722241003CF13D /* DashboardMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526BBA412C722240003CF13D /* DashboardMainView.swift */; };
 		52EF89E82C707650004CC132 /* testAPIdataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF89E72C707650004CC132 /* testAPIdataApp.swift */; };
 		52EF89EA2C707650004CC132 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF89E92C707650004CC132 /* ContentView.swift */; };
 		52EF89EC2C707651004CC132 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52EF89EB2C707651004CC132 /* Assets.xcassets */; };
@@ -14,6 +16,11 @@
 		52EF89F92C707651004CC132 /* testAPIdataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF89F82C707651004CC132 /* testAPIdataTests.swift */; };
 		52EF8A032C707651004CC132 /* testAPIdataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF8A022C707651004CC132 /* testAPIdataUITests.swift */; };
 		52EF8A052C707651004CC132 /* testAPIdataUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF8A042C707651004CC132 /* testAPIdataUITestsLaunchTests.swift */; };
+		52EF8A132C7076D3004CC132 /* handleNetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF8A122C7076D3004CC132 /* handleNetworkRequest.swift */; };
+		52EF8A1F2C71C60D004CC132 /* Protocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF8A1E2C71C60D004CC132 /* Protocal.swift */; };
+		52EF8A212C71D297004CC132 /* HandelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF8A202C71D297004CC132 /* HandelProtocol.swift */; };
+		52EF8A292C71F61E004CC132 /* AllBooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF8A282C71F61E004CC132 /* AllBooks.swift */; };
+		52EF8A2C2C71F660004CC132 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF8A2B2C71F660004CC132 /* DashboardViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		526BBA3F2C721D18003CF13D /* BookCardVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCardVIew.swift; sourceTree = "<group>"; };
+		526BBA412C722240003CF13D /* DashboardMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardMainView.swift; sourceTree = "<group>"; };
 		52EF89E42C707650004CC132 /* testAPIdata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testAPIdata.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52EF89E72C707650004CC132 /* testAPIdataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testAPIdataApp.swift; sourceTree = "<group>"; };
 		52EF89E92C707650004CC132 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +53,11 @@
 		52EF89FE2C707651004CC132 /* testAPIdataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testAPIdataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52EF8A022C707651004CC132 /* testAPIdataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testAPIdataUITests.swift; sourceTree = "<group>"; };
 		52EF8A042C707651004CC132 /* testAPIdataUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testAPIdataUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		52EF8A122C7076D3004CC132 /* handleNetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = handleNetworkRequest.swift; sourceTree = "<group>"; };
+		52EF8A1E2C71C60D004CC132 /* Protocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocal.swift; sourceTree = "<group>"; };
+		52EF8A202C71D297004CC132 /* HandelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandelProtocol.swift; sourceTree = "<group>"; };
+		52EF8A282C71F61E004CC132 /* AllBooks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllBooks.swift; sourceTree = "<group>"; };
+		52EF8A2B2C71F660004CC132 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +85,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		526BBA3E2C721CFE003CF13D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				526BBA3F2C721D18003CF13D /* BookCardVIew.swift */,
+				526BBA412C722240003CF13D /* DashboardMainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		52EF89DB2C707650004CC132 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +117,10 @@
 		52EF89E62C707650004CC132 /* testAPIdata */ = {
 			isa = PBXGroup;
 			children = (
-				52EF89E72C707650004CC132 /* testAPIdataApp.swift */,
-				52EF89E92C707650004CC132 /* ContentView.swift */,
+				52EF8A1C2C71B987004CC132 /* Core */,
+				52EF8A2D2C71FA18004CC132 /* MainApp */,
+				52EF8A112C707662004CC132 /* NetworklLayer */,
+				52EF8A1D2C71C5F4004CC132 /* Protocol */,
 				52EF89EB2C707651004CC132 /* Assets.xcassets */,
 				52EF89ED2C707651004CC132 /* Preview Content */,
 			);
@@ -125,6 +150,66 @@
 				52EF8A042C707651004CC132 /* testAPIdataUITestsLaunchTests.swift */,
 			);
 			path = testAPIdataUITests;
+			sourceTree = "<group>";
+		};
+		52EF8A112C707662004CC132 /* NetworklLayer */ = {
+			isa = PBXGroup;
+			children = (
+				52EF8A122C7076D3004CC132 /* handleNetworkRequest.swift */,
+			);
+			path = NetworklLayer;
+			sourceTree = "<group>";
+		};
+		52EF8A1C2C71B987004CC132 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				52EF8A262C71F5FC004CC132 /* Dashboard */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		52EF8A1D2C71C5F4004CC132 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				52EF8A1E2C71C60D004CC132 /* Protocal.swift */,
+				52EF8A202C71D297004CC132 /* HandelProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		52EF8A262C71F5FC004CC132 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				526BBA3E2C721CFE003CF13D /* Views */,
+				52EF8A2A2C71F646004CC132 /* ViewModel */,
+				52EF8A272C71F607004CC132 /* Model */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		52EF8A272C71F607004CC132 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52EF8A282C71F61E004CC132 /* AllBooks.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52EF8A2A2C71F646004CC132 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				52EF8A2B2C71F660004CC132 /* DashboardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		52EF8A2D2C71FA18004CC132 /* MainApp */ = {
+			isa = PBXGroup;
+			children = (
+				52EF89E72C707650004CC132 /* testAPIdataApp.swift */,
+				52EF89E92C707650004CC132 /* ContentView.swift */,
+			);
+			path = MainApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +342,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52EF8A132C7076D3004CC132 /* handleNetworkRequest.swift in Sources */,
+				52EF8A1F2C71C60D004CC132 /* Protocal.swift in Sources */,
 				52EF89EA2C707650004CC132 /* ContentView.swift in Sources */,
+				52EF8A212C71D297004CC132 /* HandelProtocol.swift in Sources */,
+				52EF8A292C71F61E004CC132 /* AllBooks.swift in Sources */,
+				526BBA402C721D18003CF13D /* BookCardVIew.swift in Sources */,
 				52EF89E82C707650004CC132 /* testAPIdataApp.swift in Sources */,
+				52EF8A2C2C71F660004CC132 /* DashboardViewModel.swift in Sources */,
+				526BBA422C722241003CF13D /* DashboardMainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
